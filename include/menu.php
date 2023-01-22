@@ -121,12 +121,13 @@
         <ul class="center hide-on-med-and-down" id="nv">
         <li>&nbsp;&nbsp;<i href="./" class="material-icons"><img src="asset\img\right.png" width="45px" height="55px" /></i><a href="./" class="ams hide-on-med-and-down">  Persmekenjo  </a></li>
             <li><div class="grs"></></li>
-            <li><a href="./"><i class="material-icons"></i>&nbsp; Beranda</a></li>
             <?php
                 if($_SESSION['admin'] == 1 || $_SESSION['admin'] == 2){ ?>
             <?php
                 }
             ?>
+            <div class="topnav-centered">
+            <li><a href="./"><i class="material-icons"></i>&nbsp; Beranda</a></li>
             <li><a class="dropdown-button" href="#!" data-activates="agenda">Buku Agenda <i class="material-icons md-18">arrow_drop_down</i></a></li>
                 <ul id='agenda' class='dropdown-content'>
                     <li><a href="?page=asm">Surat Masuk</a></li>
@@ -156,18 +157,36 @@
             <?php
                 }
             ?>
-            <li class="right" style="margin-right: 10px;"><a class="dropdown-button" href="#!" data-activates="logout"><i class="material-icons">account_circle</i> <?php echo $_SESSION['nama']; ?><i class="material-icons md-18">arrow_drop_down</i></a></li>
+            </div>
+            <li class="right" style="margin-right: 50px;"><a class="dropdown-button" href="#!" data-activates="logout"><i class="material-icons">account_circle</i> <?php echo $_SESSION['nama']; ?><i class="material-icons md-18">arrow_drop_down</i></a></li>
                 <ul id='logout' class='dropdown-content'>
                     <li><a href="?page=pro">Profil</a></li>
                     <li><a href="?page=pro&sub=pass">Ubah Password</a></li>
                     <li class="divider"></li>
-                    <li><a href="logout.php"><i class="material-icons">settings_power</i> Logout</a></li>
+                    <li><a href="logout.php"><i class="material-icons">settings_power</i>Logout</a></li>
                 </ul>
         </ul>
         <!-- Menu on large screen END -->
         <a href="#" data-activates="slide-out" class="button-collapse" id="menu"><i class="material-icons">menu</i></a>
     </div>
 </nav>
+
+<style>
+
+.topnav-centered{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.topnav-centered div{
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+}
+</style>
 
 <?php
     } else {
