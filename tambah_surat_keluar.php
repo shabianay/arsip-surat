@@ -140,7 +140,7 @@
                 <!-- Secondary Nav START -->
                 <div class="col s12">
                     <nav class="secondary-nav">
-                        <div class="nav-wrapper blue-grey darken-1">
+                        <div class="nav-wrapper red darken-1">
                             <ul class="left">
                                 <li class="waves-effect waves-light"><a href="?page=tsk&act=add" class="judul"><i class="material-icons">drafts</i> Tambah Data Surat Keluar</a></li>
                             </ul>

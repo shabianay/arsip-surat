@@ -5,7 +5,7 @@
         while($data = mysqli_fetch_array($query)){
             echo '
                 <div class="col s12" id="header-instansi">
-                    <div class="card blue-grey white-text">
+                    <div class="card red white-text">
                         <div class="card-content">';
                             if(!empty($data['logo'])){
                                 echo '<div class="circle left"><img class="logo" src="./upload/'.$data['logo'].'"/></div>';

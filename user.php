@@ -38,7 +38,7 @@
                         <div class="col s12">
                             <div class="z-depth-1">
                                 <nav class="secondary-nav">
-                                    <div class="nav-wrapper blue-grey darken-1">
+                                    <div class="nav-wrapper red darken-1">
                                         <div class="col m12">
                                             <ul class="left">
                                                 <li class="waves-effect waves-light hide-on-small-only"><a href="?page=sett&sub=usr" class="judul"><i class="material-icons">people</i> Manajemen User</a></li>
@@ -125,18 +125,18 @@
                                     } elseif($row['admin'] == 2){
                                         $row['admin'] = 'Administrator';
                                     } else {
-                                        $row['admin'] = 'User Biasa';
+                                        $row['admin'] = 'Tata Usaha';
                                     } echo '<td>'.$row['username'].'</td>
                                             <td>'.$row['nama'].'<br/>'.$row['nip'].'</td>
                                             <td>'.$row['admin'].'</td>
                                             <td>';
 
                                     if($_SESSION['username'] == $row['username']){
-                                        echo '<button class="btn small blue-grey waves-effect waves-light"><i class="material-icons">error</i> No Action</button>';
+                                        echo '<button class="btn small red waves-effect waves-light"><i class="material-icons">error</i> No Action</button>';
                                     } else {
 
                                         if($row['id_user'] == 1){
-                                            echo '<button class="btn small blue-grey waves-effect waves-light"><i class="material-icons">error</i> No Action</button>';
+                                            echo '<button class="btn small red waves-effect waves-light"><i class="material-icons">error</i> No Action</button>';
                                         } else {
                                           echo ' <a class="btn small blue waves-effect waves-light" href="?page=sett&sub=usr&act=edit&id_user='.$row['id_user'].'">
                                                  <i class="material-icons">edit</i> EDIT</a>

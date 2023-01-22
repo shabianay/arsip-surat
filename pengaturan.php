@@ -173,7 +173,7 @@
                             <!-- Secondary Nav START -->
                             <div class="col s12">
                                 <nav class="secondary-nav">
-                                    <div class="nav-wrapper blue-grey darken-1">
+                                    <div class="nav-wrapper red darken-1">
                                         <ul class="left">
                                             <li class="waves-effect waves-light"><a href="?page=sett" class="judul"><i class="material-icons">work</i> Manajemen Instansi</a></li>
                                         </ul>

@@ -32,7 +32,7 @@
                         <div class="col s12">
                             <div class="z-depth-1">
                                 <nav class="secondary-nav">
-                                    <div class="nav-wrapper blue-grey darken-1">
+                                    <div class="nav-wrapper red darken-1">
                                         <div class="col m12">
                                             <ul class="left">
                                                 <li class="waves-effect waves-light"><a href="?page=gsm" class="judul"><i class="material-icons">image</i> Galeri File Surat Masuk</a></li>

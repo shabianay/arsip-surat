@@ -62,7 +62,7 @@
                             //validasi form kosong
                             if($_REQUEST['username'] == "" || $_REQUEST['password'] == ""){
                                 echo '<div class="upss red-text"><i class="material-icons">error_outline</i> <strong>ERROR!</strong> Username dan Password wajib diisi.
-                                <a class="btn-large waves-effect waves-light blue-grey col s11" href="" style="margin: 20px 0 0 5px;"><i class="material-icons md-24">arrow_back</i> Kembali ke login form</a></div>';
+                                <a class="btn-large waves-effect waves-light red col s11" href="" style="margin: 20px 0 0 5px;"><i class="material-icons md-24">arrow_back</i> Kembali ke login form</a></div>';
                             } else {
 
                                 $username = trim(htmlspecialchars(mysqli_real_escape_string($config, $_REQUEST['username'])));
@@ -103,12 +103,12 @@
                     <label for="password">Password</label>
                 </div>
                 <div class="input-field col s12">
-                    <button type="submit" class="btn-large waves-effect waves-light blue-grey col s12" name="submit">LOGIN</button>
+                    <button type="submit" class="btn-large waves-effect waves-light red col s12" name="submit">LOGIN</button>
                 </div>
             </form>
         </div>
         <div class="right center px-3 justify-content-center mt-4 mb-5">
-        <h4 class="title"> Aplikasi Arsip Surat</h4>
+        <h4 class="title">PERSMEKENJO</h4>
             <img class="img-fluid mb-3 d-none d-md-block" src="asset\img\right.png" alt="smklogo">
         </div>
     </div>
@@ -123,7 +123,7 @@ body {
 }
 .bg::before {
     content: '';
-    background-image: url('./asset/img/background.jpg');
+    background-image: url('./asset/img/Background awal.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -167,7 +167,7 @@ h1 {
 }
 
 hr {
-    border-top: 2px solid #26a69a;
+    border-top: 2px solid red;
 }
 
 p {

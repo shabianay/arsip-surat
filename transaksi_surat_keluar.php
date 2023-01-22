@@ -47,7 +47,7 @@
                     <div class="col s12">
                         <div class="z-depth-1">
                             <nav class="secondary-nav">
-                                <div class="nav-wrapper blue-grey darken-1">
+                                <div class="nav-wrapper red darken-1">
                                     <div class="col m7">
                                         <ul class="left">
                                             <li class="waves-effect waves-light hide-on-small-only"><a href="?page=tsk" class="judul"><i class="material-icons">drafts</i> Surat Keluar</a></li>
@@ -162,7 +162,7 @@
                                         <td>';
 
                                         if($_SESSION['id_user'] != $row['id_user'] AND $_SESSION['id_user'] != 1){
-                                            echo '<button class="btn small blue-grey waves-effect waves-light"><i class="material-icons">error</i> No Action</button>';
+                                            echo '<button class="btn small red waves-effect waves-light"><i class="material-icons">error</i> No Action</button>';
                                         } else {
                                           echo '<a class="btn small blue waves-effect waves-light" href="?page=tsk&act=edit&id_surat='.$row['id_surat'].'">
                                                     <i class="material-icons">edit</i> EDIT</a>
@@ -261,7 +261,7 @@
                                     <td>';
 
                                     if($_SESSION['id_user'] != $row['id_user'] AND $_SESSION['id_user'] != 1){
-                                        echo '<button class="btn small blue-grey waves-effect waves-light"><i class="material-icons">error</i> No Action</button>';
+                                        echo '<button class="btn small red waves-effect waves-light"><i class="material-icons">error</i> No Action</button>';
                                     } else {
                                       echo '<a class="btn small blue waves-effect waves-light" href="?page=tsk&act=edit&id_surat='.$row['id_surat'].'">
                                                 <i class="material-icons">edit</i> EDIT</a>

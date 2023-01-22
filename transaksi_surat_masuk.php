@@ -53,7 +53,7 @@
                     <div class="col s12">
                         <div class="z-depth-1">
                             <nav class="secondary-nav">
-                                <div class="nav-wrapper blue-grey darken-1">
+                                <div class="nav-wrapper red darken-1">
                                     <div class="col m7">
                                         <ul class="left">
                                             <li class="waves-effect waves-light hide-on-small-only"><a href="?page=tsm" class="judul"><i class="material-icons">mail</i> Surat Masuk</a></li>

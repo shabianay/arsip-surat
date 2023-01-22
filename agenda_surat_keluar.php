@@ -85,7 +85,7 @@
                         <div class="col s12">
                             <div class="z-depth-1">
                                 <nav class="secondary-nav">
-                                    <div class="nav-wrapper blue-grey darken-1">
+                                    <div class="nav-wrapper red darken-1">
                                         <div class="col 12">
                                             <ul class="left">
                                                 <li class="waves-effect waves-light"><a href="?page=ask" class="judul"><i class="material-icons">print</i> Cetak Agenda Surat Keluar<a></li>
@@ -201,7 +201,7 @@
                     <div class="col s12">
                         <div class="z-depth-1">
                             <nav class="secondary-nav">
-                                <div class="nav-wrapper blue-grey darken-1">
+                                <div class="nav-wrapper red darken-1">
                                     <div class="col 12">
                                         <ul class="left">
                                             <li class="waves-effect waves-light"><a href="?page=ask" class="judul"><i class="material-icons">print</i> Cetak Agenda Surat Keluar<a></li>

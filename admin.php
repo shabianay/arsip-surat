@@ -92,7 +92,7 @@
                             } elseif($_SESSION['admin'] == 2){
                                 echo "<strong>Administrator</strong>. Berikut adalah statistik data yang tersimpan dalam sistem.";
                             } else {
-                                echo "<strong>Petugas Disposisi</strong>. Berikut adalah statistik data yang tersimpan dalam sistem.";
+                                echo "<strong>Tata Usaha</strong>. Berikut adalah statistik data yang tersimpan dalam sistem.";
                             }?></p>
                     </div>
                 </div>

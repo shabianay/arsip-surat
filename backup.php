@@ -19,7 +19,7 @@
                     <div class="col s12">
                         <div class="z-depth-1">
                             <nav class="secondary-nav">
-                                <div class="nav-wrapper blue-grey darken-1">
+                                <div class="nav-wrapper red darken-1">
                                     <div class="col m12">
                                         <ul class="left">
                                             <li class="waves-effect waves-light"><a href="?page=sett&sub=back" class="judul"><i class="material-icons">storage</i> Backup Database</a></li>

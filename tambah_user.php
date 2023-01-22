@@ -84,7 +84,7 @@
                 <!-- Secondary Nav START -->
                 <div class="col s12">
                     <nav class="secondary-nav">
-                        <div class="nav-wrapper blue-grey darken-1">
+                        <div class="nav-wrapper red darken-1">
                             <ul class="left">
                                 <li class="waves-effect waves-light"><a href="?page=sett&sub=usr&act=add" class="judul"><i class="material-icons">person_add</i> Tambah User</a></li>
                             </ul>
@@ -194,7 +194,7 @@
                             <i class="material-icons prefix md-prefix">supervisor_account</i><label>Pilih Tipe User</label><br/>
                             <div class="input-field col s11 right">
                                 <select class="browser-default validate" name="admin" id="admin" required>
-                                    <option value="3">User Biasa</option>
+                                    <option value="3">Tata Usaha</option>
                                     <option value="2">Administrator</option>
                                 </select>
                             </div>

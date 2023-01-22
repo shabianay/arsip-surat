@@ -3,12 +3,12 @@
     if(!empty($_SESSION['admin'])){
 ?>
 
-<nav class="blue-grey darken-1">
+<nav class="red">
     <div class="nav-wrapper">
         <a href="./asset/img/lg2.jpg" class="brand-logo center hide-on-large-only">Persmekenjo</a>
         <ul id="slide-out" class="side-nav" data-simplebar-direction="vertical">
             <li class="no-padding">
-                <div class="logo-side center blue-grey darken-3">
+                <div class="logo-side center red darken-3">
                     <?php
                         $query = mysqli_query($config, "SELECT * FROM tbl_instansi");
                         while($data = mysqli_fetch_array($query)){
@@ -31,7 +31,7 @@
                     ?>
                 </div>
             </li>
-            <li class="no-padding blue-grey darken-4">
+            <li class="no-padding red darken-4">
                 <ul class="collapsible collapsible-accordion">
                     <li>
                         <a class="collapsible-header"><i class="material-icons">account_circle</i><?php echo $_SESSION['nama']; ?></a>
@@ -119,7 +119,7 @@
 
         <!-- Menu on large screen START -->
         <ul class="center hide-on-med-and-down" id="nv">
-        <li>&nbsp;&nbsp;<i href="./" class="material-icons"><img src="asset\img\right.png" width="45px" height="55px" /></i><a href="./" class="ams hide-on-med-and-down">  Persmekenjo  </a></li>
+        <li>&nbsp;&nbsp;<i href="./" class="material-icons"><img src="asset\img\right.png" width="45px" height="55px" /></i><a href="./" class="ams hide-on-med-and-down">  PERSMEKENJO  </a></li>
             <li><div class="grs"></></li>
             <?php
                 if($_SESSION['admin'] == 1 || $_SESSION['admin'] == 2){ ?>

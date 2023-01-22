@@ -76,7 +76,7 @@
                                                     $row['admin'] = "Administrator";
                                                 } else {
                                                     if($row['admin'] == 3){
-                                                    $row['admin'] = "User Biasa";
+                                                    $row['admin'] = "Tata Usaha";
                                                 }
                                             } echo '
             				                    <td width="86%">'.$row['admin'].'</td>

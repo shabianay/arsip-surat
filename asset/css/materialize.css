@@ -2037,11 +2037,11 @@ input-field round-in-box input#search {
 }
 
 .blue-grey.lighten-2 {
-	background-color: #90a4ae !important
+	background-color: red !important
 }
 
 .blue-grey-text.text-lighten-2 {
-	color: #90a4ae !important
+	color: red !important
 }
 
 .blue-grey.lighten-1 {
@@ -2061,11 +2061,11 @@ input-field round-in-box input#search {
 }
 
 .blue-grey.darken-1 {
-	background-color: #546e7a !important
+	background-color: red !important
 }
 
 .blue-grey-text.text-darken-1 {
-	color: #546e7a !important
+	color: red !important
 }
 
 .blue-grey.darken-2 {
@@ -4836,7 +4836,7 @@ ul.tabs li.tab {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #546e7a;
+	background-color: red;
 	margin-top: 63px;
 	min-width: 175px;
 	z-index: 1000;
@@ -4855,7 +4855,7 @@ ul.tabs li.tab {
 
 .dropdown-content li:hover,
 .dropdown-content li.active {
-	background-color: #90A4AE
+	background-color: red
 }
 
 .dropdown-content li > a,
@@ -5096,7 +5096,7 @@ a.waves-effect .waves-ripple {
 	height: 3rem;
 	line-height: 3rem;
 	padding: 0 1rem;
-	background-color: #546E7A;
+	background-color: red;
 	border-bottom: 1px solid #ddd
 }
 
@@ -5273,7 +5273,7 @@ label {
 .input-field input[type=number]:focus + label,
 .input-field input[type=search]:focus + label,
 .input-field textarea:focus.materialize-textarea + label {
-	color: #7cb342
+	color: red
 }
 
 .input-field input[type=text].valid,
@@ -5285,10 +5285,10 @@ label {
 .input-field input[type=number].valid,
 .input-field input[type=search].valid,
 .input-field textarea.materialize-textarea.valid {
-	border-bottom: 1px solid #4CAF50;
-	-webkit-box-shadow: 0 1px 0 0 #4CAF50;
-	-moz-box-shadow: 0 1px 0 0 #4CAF50;
-	box-shadow: 0 1px 0 0 #4CAF50
+	border-bottom: 1px solid red;
+	-webkit-box-shadow: 0 1px 0 0 red;
+	-moz-box-shadow: 0 1px 0 0 red;
+	box-shadow: 0 1px 0 0 red
 }
 
 .input-field input[type=text].invalid,
@@ -5300,10 +5300,10 @@ label {
 .input-field input[type=number].invalid,
 .input-field input[type=search].invalid,
 .input-field textarea.materialize-textarea.invalid {
-	border-bottom: 1px solid #F44336;
-	-webkit-box-shadow: 0 1px 0 0 #F44336;
-	-moz-box-shadow: 0 1px 0 0 #F44336;
-	box-shadow: 0 1px 0 0 #F44336
+	border-bottom: 1px solid red;
+	-webkit-box-shadow: 0 1px 0 0 red;
+	-moz-box-shadow: 0 1px 0 0 red;
+	box-shadow: 0 1px 0 0 red
 }
 
 .input-field .prefix {
@@ -5318,7 +5318,7 @@ label {
 }
 
 .input-field .prefix.active {
-	color: #7cb342
+	color: #f44336
 }
 
 .input-field .prefix ~ input,
@@ -6069,7 +6069,7 @@ ul.side-nav {
 	height: 100%;
 	height: calc(100% + 60px);
 	padding-bottom: 60px;
-	background-color: #546E7A;
+	background-color: red;
 	z-index: 999;
 	will-change: left
 }
@@ -6091,7 +6091,7 @@ ul.side-nav li {
 
 ul.side-nav li:hover,
 ul.side-nav li.active {
-	background-color: #90A4AE
+	background-color: red
 }
 
 ul.side-nav a {
@@ -6136,7 +6136,7 @@ ul.side-nav.fixed.right-aligned {
 
 ul.side-nav .collapsible-body li.active,
 ul.side-nav.fixed .collapsible-body li.active {
-	background-color: #546E7A
+	background-color: red
 }
 
 ul.side-nav .collapsible-body li.active a,

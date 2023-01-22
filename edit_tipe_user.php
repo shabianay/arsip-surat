@@ -65,7 +65,7 @@
                             <!-- Secondary Nav START -->
                             <div class="col s12">
                                 <nav class="secondary-nav">
-                                    <div class="nav-wrapper blue-grey darken-1">
+                                    <div class="nav-wrapper red darken-1">
                                         <ul class="left">
                                             <li class="waves-effect waves-light  tooltipped" data-position="right" data-tooltip="Menu ini hanya untuk mengedit tipe user. Username dan password bisa diganti lewat menu profil"><a href="#" class="judul"><i class="material-icons">mode_edit</i> Edit Tipe User</a></li>
                                         </ul>
@@ -120,11 +120,11 @@
                                                         if($row['admin'] == 2){
                                                             echo 'Administrator';
                                                         } else {
-                                                            echo 'User Biasa';
+                                                            echo 'Tata Usaha';
                                                         }
                                                     ?>
                                                 </option>
-                                                <option value="3">User Biasa</option>
+                                                <option value="3">Tata Usaha</option>
                                                 <option value="2">Administrator</option>
                                             </select>
                                         </div>

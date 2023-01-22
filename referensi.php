@@ -43,7 +43,7 @@
                     <div class="col s12">
                         <div class="z-depth-1">
                             <nav class="secondary-nav">
-                                <div class="nav-wrapper blue-grey darken-1">
+                                <div class="nav-wrapper red darken-1">
                                     <div class="col m7">
                                         <ul class="left">
                                             <li class="waves-effect waves-light hide-on-small-only"><a href="?page=ref" class="judul"><i class="material-icons">class</i> Klasifikasi Surat</a></li>';
@@ -164,7 +164,7 @@
                                         <td>';
 
                                         if($_SESSION['admin'] != 1 AND $_SESSION['admin'] != 2){
-                                            echo '<a class="btn small blue-grey waves-effect waves-light"><i class="material-icons">error</i> NO ACTION</a>';
+                                            echo '<a class="btn small red waves-effect waves-light"><i class="material-icons">error</i> NO ACTION</a>';
                                         } else {
                                           echo '<a class="btn small blue waves-effect waves-light" href="?page=ref&act=edit&id_klasifikasi='.$row['id_klasifikasi'].'">
                                                     <i class="material-icons">edit</i> EDIT</a>
@@ -251,7 +251,7 @@
                                                 <td>';
 
                                                 if($_SESSION['admin'] != 1 AND $_SESSION['admin'] != 2){
-                                                    echo '<a class="btn small blue-grey waves-effect waves-light"><i class="material-icons">error</i> NO ACTION</a>';
+                                                    echo '<a class="btn small red waves-effect waves-light"><i class="material-icons">error</i> NO ACTION</a>';
                                                 } else {
                                                   echo '<a class="btn small blue waves-effect waves-light" href="?page=ref&act=edit&id_klasifikasi='.$row['id_klasifikasi'].'">
                                                             <i class="material-icons">edit</i> EDIT</a>

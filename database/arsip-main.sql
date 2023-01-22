@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 22, 2023 at 01:18 PM
+-- Generation Time: Jan 22, 2023 at 03:38 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -63,7 +63,7 @@ CREATE TABLE `tbl_instansi` (
 --
 
 INSERT INTO `tbl_instansi` (`id_instansi`, `institusi`, `nama`, `status`, `alamat`, `kepsek`, `nip`, `website`, `email`, `logo`, `id_user`) VALUES
-(1, 'Dinas Pendidikan Pemuda Dan Olahraga', 'SMK Negeri 1 Jombang', 'Terakreditasi A', 'Jalan Dokter Sutomo No.15, Sengon, Kec. Jombang, Kabupaten Jombang, Jawa Timur 61415', 'Drs. Siswo Rusianto', '196411191998021000', 'https://smkn1jombang.sch.id/', 'kantor@smkn1jombang.sch.id', 'logo.jpg', 1);
+(1, 'DINAS PENDIDIKAN KABUPATEN JOMBANG', 'SMK Negeri 1 Jombang', 'Terakreditasi A', 'Jalan Dokter Sutomo No.15, Sengon, Kec. Jombang, Kab. Jombang, Jawa Timur 61415', 'Drs. Siswo Rusianto', '196411191998021000', 'https://smkn1jombang.sch.id/', 'kantor@smkn1jombang.sch.id', 'logo.jpg', 1);
 
 -- --------------------------------------------------------
 
@@ -141,6 +141,13 @@ CREATE TABLE `tbl_surat_masuk` (
   `id_user` tinyint(2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
+--
+-- Dumping data for table `tbl_surat_masuk`
+--
+
+INSERT INTO `tbl_surat_masuk` (`id_surat`, `no_agenda`, `no_surat`, `asal_surat`, `isi`, `kode`, `indeks`, `tgl_surat`, `tgl_diterima`, `file`, `keterangan`, `id_user`) VALUES
+(2, 1, '1321', '1231', '\r\nawdwa', '132', '131', '2023-01-22', '2023-01-22', '5220-Makanan Terasa Lezat Jika Datangnya Cepat.png', 'adaw', 1);
+
 -- --------------------------------------------------------
 
 --
@@ -162,7 +169,7 @@ CREATE TABLE `tbl_user` (
 
 INSERT INTO `tbl_user` (`id_user`, `username`, `password`, `nama`, `nip`, `admin`) VALUES
 (1, 'Admin', '21232f297a57a5a743894a0e4a801fc3', 'Admin', '-', 1),
-(2, 'Tatausaha', '82849c85acf1f4e6e4eec748f0aeddf4', 'Tata Usaha', '-', 2);
+(2, 'Tatausaha', '82849c85acf1f4e6e4eec748f0aeddf4', 'Tata Usaha', '-', 3);
 
 --
 -- Indexes for dumped tables
@@ -236,7 +243,7 @@ ALTER TABLE `tbl_surat_keluar`
 -- AUTO_INCREMENT for table `tbl_surat_masuk`
 --
 ALTER TABLE `tbl_surat_masuk`
-  MODIFY `id_surat` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_surat` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `tbl_user`
