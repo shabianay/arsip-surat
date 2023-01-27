@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 27, 2023 at 01:21 PM
+-- Generation Time: Jan 27, 2023 at 05:17 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -119,6 +119,13 @@ CREATE TABLE `tbl_surat_keluar` (
   `keterangan` varchar(250) NOT NULL,
   `id_user` tinyint(2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data for table `tbl_surat_keluar`
+--
+
+INSERT INTO `tbl_surat_keluar` (`id_surat`, `no_agenda`, `tujuan`, `no_surat`, `isi`, `kode`, `tgl_surat`, `tgl_catat`, `file`, `keterangan`, `id_user`) VALUES
+(1, 1, 'saya', '12345', 'tes', '123', '2023-01-27', '2023-01-27', '3528-078_Jasmine SM_Transformasi 2D.pdf', 'Tesdulu', 1);
 
 -- --------------------------------------------------------
 
@@ -238,7 +245,7 @@ ALTER TABLE `tbl_klasifikasi`
 -- AUTO_INCREMENT for table `tbl_surat_keluar`
 --
 ALTER TABLE `tbl_surat_keluar`
-  MODIFY `id_surat` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_surat` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `tbl_surat_masuk`
